@@ -1,0 +1,269 @@
+{
+  "tree": {
+    "id": "5d724f03694d581cba7cc722",
+    "metadata": {
+      "schemaVersion": "0.2",
+      "type": "decision-tree",
+      "title": "AM test 1",
+      "latestVersion": "0.0.5"
+    },
+    "defaultPermission": "Read",
+    "dependencies": {},
+    "rootNode": "5d724f0355a8050012de0b76"
+  },
+  "nodes": [
+    {
+      "id": "5d724f0355a8050012de0b7a",
+      "metadata": {
+        "title": "\"\"",
+        "content": "\"<p>Fill in Content<p>\""
+      },
+      "tags": [
+        "content"
+      ]
+    },
+    {
+      "id": "5d724f0355a8050012de0b7c",
+      "metadata": {
+        "title": "\"\"",
+        "content": "\"<p>Fill in Content<p>\""
+      },
+      "tags": [
+        "content"
+      ]
+    },
+    {
+      "id": "5d724f0355a8050012de0b78",
+      "metadata": {
+        "title": "\"\"",
+        "content": "\"<h4><b>Required Tests</b></h4><p>Fill in Content</p>\""
+      },
+      "tags": [
+        "content"
+      ]
+    },
+    {
+      "id": "5d724f0355a8050012de0b82",
+      "metadata": {
+        "questionForChildren": "\"Choose an option:\"",
+        "title": "\"Fill in Title and Content\""
+      },
+      "tags": [
+        "node"
+      ],
+      "children": [
+        "5d724f0355a8050012de0b8a"
+      ]
+    },
+    {
+      "id": "5d724f0355a8050012de0b77",
+      "metadata": {
+        "title": "\"\"",
+        "content": "\"<h4>1</h4>\\n\"",
+        "resourceIds": "[]"
+      },
+      "tags": [
+        "content"
+      ]
+    },
+    {
+      "id": "5d724f0355a8050012de0b88",
+      "metadata": {
+        "title": "\"\""
+      },
+      "tags": [
+        "extensionLink"
+      ],
+      "children": [
+        "5d724f0355a8050012de0b7a"
+      ]
+    },
+    {
+      "id": "5d724f0355a8050012de0b89",
+      "metadata": {
+        "title": "\"\""
+      },
+      "tags": [
+        "extensionLink"
+      ],
+      "children": [
+        "5d724f0355a8050012de0b7b"
+      ]
+    },
+    {
+      "id": "5d724f0355a8050012de0b7d",
+      "metadata": {
+        "questionForChildren": "\"Choose an option:\"",
+        "title": "\"Fill in Title and Content\""
+      },
+      "tags": [
+        "node"
+      ],
+      "children": [
+        "5d724f0355a8050012de0b83",
+        "5d724f0355a8050012de0b84",
+        "5d724f0355a8050012de0b88"
+      ]
+    },
+    {
+      "id": "5d724f0355a8050012de0b76",
+      "metadata": {
+        "questionForChildren": "\"Is this UpToDate Pathway appropriate for this patient?\"",
+        "isChildrenHidden": "true",
+        "shortTitle": "\"\"",
+        "title": "\"<p>4</p>\\n\"",
+        "isDefaultTitle": "false",
+        "resourceIds": "[]"
+      },
+      "tags": [
+        "node"
+      ],
+      "children": [
+        "5d724f0355a8050012de0b7e",
+        "5d724f0355a8050012de0b80",
+        "5d724f0355a8050012de0b85",
+        "5d724f0355a8050012de0b86",
+        "5d724f0355a8050012de0b87"
+      ]
+    },
+    {
+      "id": "5d724f0355a8050012de0b86",
+      "metadata": {
+        "title": "\"\""
+      },
+      "tags": [
+        "extensionLink"
+      ],
+      "children": [
+        "5d724f0355a8050012de0b78"
+      ]
+    },
+    {
+      "id": "5d724f0355a8050012de0b83",
+      "metadata": {
+        "title": "\"Yes\""
+      },
+      "tags": [
+        "link"
+      ],
+      "children": [
+        "5d724f0355a8050012de0b81"
+      ]
+    },
+    {
+      "id": "5d724f0355a8050012de0b84",
+      "metadata": {
+        "title": "\"No\""
+      },
+      "tags": [
+        "link"
+      ],
+      "children": [
+        "5d724f0355a8050012de0b82"
+      ]
+    },
+    {
+      "id": "5d724f0355a8050012de0b7e",
+      "metadata": {
+        "title": "\"Yes\""
+      },
+      "tags": [
+        "link"
+      ],
+      "children": [
+        "5d724f0355a8050012de0b7d"
+      ]
+    },
+    {
+      "id": "5d724f0355a8050012de0b8a",
+      "metadata": {
+        "title": "\"\""
+      },
+      "tags": [
+        "extensionLink"
+      ],
+      "children": [
+        "5d724f0355a8050012de0b7c"
+      ]
+    },
+    {
+      "id": "5d724f0355a8050012de0b79",
+      "metadata": {
+        "title": "\"\"",
+        "content": "\"<h4><b>Exclusions</b></h4><p>Fill in Content</p>\""
+      },
+      "tags": [
+        "content"
+      ]
+    },
+    {
+      "id": "5d724f0355a8050012de0b7f",
+      "metadata": {
+        "shortTitle": "\"<span style=\\\"color:#e74c3c\\\">This UpToDate Pathway is not appropriate for this patient.</span>\"",
+        "title": "\"<span style=\\\"color:#e74c3c\\\">This UpToDate Pathway is not appropriate for this patient because one or more exclusions are present. For additional information on the approach to patients not covered by this UpToDate Pathway, please refer to Related UpToDate Content. Close the browser tab to exit the UpToDate Pathway.</span>\""
+      },
+      "tags": [
+        "node"
+      ]
+    },
+    {
+      "id": "5d724f0355a8050012de0b85",
+      "metadata": {
+        "title": "\"\""
+      },
+      "tags": [
+        "extensionLink"
+      ],
+      "children": [
+        "5d724f0355a8050012de0b77"
+      ]
+    },
+    {
+      "id": "5d724f0355a8050012de0b80",
+      "metadata": {
+        "title": "\"No\""
+      },
+      "tags": [
+        "link"
+      ],
+      "children": [
+        "5d724f0355a8050012de0b7f"
+      ]
+    },
+    {
+      "id": "5d724f0355a8050012de0b7b",
+      "metadata": {
+        "title": "\"\"",
+        "content": "\"<p>Fill in Content<p>\""
+      },
+      "tags": [
+        "content"
+      ]
+    },
+    {
+      "id": "5d724f0355a8050012de0b81",
+      "metadata": {
+        "questionForChildren": "\"Choose an option:\"",
+        "title": "\"Fill in Title and Content\""
+      },
+      "tags": [
+        "node"
+      ],
+      "children": [
+        "5d724f0355a8050012de0b89"
+      ]
+    },
+    {
+      "id": "5d724f0355a8050012de0b87",
+      "metadata": {
+        "title": "\"\""
+      },
+      "tags": [
+        "extensionLink"
+      ],
+      "children": [
+        "5d724f0355a8050012de0b79"
+      ]
+    }
+  ]
+}
